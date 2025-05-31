@@ -18,7 +18,7 @@ jobs:
           - ec718u
           - ec718p
           - ec716e
-          - ec718um
+          - ec716s
           - ec718hm
     steps:
       - name: 克隆 LuatOS 代码库
