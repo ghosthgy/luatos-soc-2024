@@ -66,7 +66,7 @@ jobs:
         run:  git clone --depth=1 --branch v1002.ec7xx.release https://gitee.com/openLuat/LuatOS.git
       - name: 克隆 ec7xx-csdk 代码库
         run: | 
-          git clone --depth=1 https://github.com/openLuat/luatos-soc-2024.git
+          git clone --depth=1 https://github.com/ghosthgy/luatos-soc-2024.git
           sudo chmod +x luatos-soc-2024/PLAT/tools/fcelf
       - name: 下载GCC工具链
         run: |
