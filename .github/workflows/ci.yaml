@@ -21,7 +21,7 @@ jobs:
           - ec718hm
     steps:
       - name: 克隆 LuatOS 代码库
-        run:  git clone -b v1003.air8101.release https://gitee.com/openLuat/LuatOS.git
+        run:  git clone -b v2006.ec7xx.release https://gitee.com/openLuat/LuatOS.git
       - name: 克隆 ec7xx-csdk 代码库
         run: | 
           git clone --depth=1 https://github.com/ghosthgy/luatos-soc-2024.git
@@ -59,7 +59,7 @@ jobs:
           - ec716s
     steps:
       - name: 克隆 LuatOS 代码库
-        run:  git clone -b v1003.air8101.release https://gitee.com/openLuat/LuatOS.git
+        run:  git clone -b v2006.ec7xx.release https://gitee.com/openLuat/LuatOS.git
       - name: 克隆 ec7xx-csdk 代码库
         run: | 
           git clone --depth=1 https://github.com/ghosthgy/luatos-soc-2024.git
