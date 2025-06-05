@@ -1,7 +1,7 @@
 name: EC7xx
 run-name: GoGoGo 🚀
 on: 
-  push:
+  workflow_dispatch:
   workflow_call:
 
 jobs:
