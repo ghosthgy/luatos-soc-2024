@@ -57,7 +57,7 @@ jobs:
         csdk_chip:
           - ec718u
           - ec718p
-        #   - ec716s
+          - ec716s
           - ec716e
           - ec718pm
           - ec718um
