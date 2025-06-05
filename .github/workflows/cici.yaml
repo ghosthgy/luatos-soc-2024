@@ -1,5 +1,5 @@
-name: EC7xx
-run-name: GoGoGo 🚀
+name: EC7xxGo
+run-name: GoGoGoGo 🚀
 on: 
   workflow_dispatch:
   workflow_call:
